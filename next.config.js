@@ -3,7 +3,11 @@ const nextConfig = {}
 
 const withNextra = require('nextra')({
     theme: 'nextra-theme-docs',
-    themeConfig: './theme.config.jsx'
+    themeConfig: './src/theme.config.jsx',
+    flexsearch: {
+      codeblocks: false,
+    },
+    defaultShowCopyCode: true,
   })
    
   module.exports = withNextra(nextConfig)

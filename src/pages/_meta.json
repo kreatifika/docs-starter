@@ -1,13 +1,12 @@
 {
-    "index": "My Homepage",
-    "contact": "Contact Us",
-    "fruits": "Delicious Fruits",
+  "intro": "Introduction",
+  "contact": "Contact Us",
     "about": {
         "title": "About Us",
         "type": "page"
     },
     "github_link": {
-      "title": "Nextra",
-      "href": "https://github.com/shuding/nextra"
+      "title": "Kreatifika",
+      "href": "https://github.com/kreatifika"
     }
   }
